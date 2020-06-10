@@ -30,4 +30,4 @@ Packages used for Environment Setup  **Raspberry Pi & NCS**
 import cv2
 import imutils 
 ```
-ect.
+> ect.
