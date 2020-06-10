@@ -24,8 +24,8 @@ Packages used for Environment Setup  **Raspberry Pi & NCS**
 * OpenVINO 2.0+
 
 
-> Please install other required packeges necessary which will pop out on errors while importing these packeges 
-> Check the installation by importing the packegs ex:
+> * Please install other required packeges necessary which will pop out on errors while importing these packeges. 
+> * Check the installation by importing the packegs ex:
 ```
 import cv2
 import imutils 
