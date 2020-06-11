@@ -30,6 +30,15 @@ cv2.imshow('image read',image)
 > -
 > - 
 > -
+> -
+> - 
+> -
+> -
+> - 
+> -
+> -
+> - 
+> -
 > - Couldn't see the image ? !   :astonished:
 ```
 cv2.imshow('image read',image)
@@ -37,5 +46,32 @@ cv2.waitKey(0)
 
 ```
  :+1:
+ ## Resize and crop :scissors:
+ 
+ ```
+ import cv2
+ import imutils 
 
+ image = cv2.imread('image.jpg')
+
+ cv2.imshow('image read',image)
+
+################ resize  #######################
+
+
+image = imutils.resize(image, width = 500)
+
+
+#################################################
+
+################ CROP :scissors:  #######################
+
+
+image = image[y:y+h,x:x+h]
+
+##########################################################
+
+
+ ```
+ :star:
 
