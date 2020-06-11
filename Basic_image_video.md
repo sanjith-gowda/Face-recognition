@@ -15,7 +15,7 @@ Packages used for Environment Setup  **Laptop**
 * Keras
 
 # Image manipulation 
-- 
+
 
 ## READ THE IMAGE !
 ```
@@ -27,15 +27,15 @@ image = cv2.imread('image.jpg')
 cv2.imshow('image read',image)
 
 ```
-> .
-> . 
-> .
-> . Couldn't see the image ? !  GitHub supports emoji! :+1: :astonished:
+> -
+> - 
+> -
+> - Couldn't see the image ? !   :astonished:
 ```
 cv2.imshow('image read',image)
 cv2.waitKey(0)
 
 ```
-GitHub supports emoji! :+1: :thumbsup:
+ :+1:
 
 
