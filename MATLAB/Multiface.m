@@ -4,7 +4,7 @@
 
  img=imrotate(h,0);
  
- figure(1),imshow(img);
+ %figure(1),imshow(img);
  face = vision.CascadeObjectDetector();
  face.MergeThreshold = 10;
 
@@ -12,7 +12,7 @@
 %%% box will have all the information of all detected faces
 
  faces = insertObjectAnnotation(img,'rectangle',box,'Face','LineWidth',2,'Color','red');
- figure(2),imshow(faces);
+ figure(1),imshow(faces);
 
 for i = 1:size(box,1)
  j= imcrop(img,box(i,:));
