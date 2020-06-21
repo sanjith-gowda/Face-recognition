@@ -2,11 +2,7 @@ clear all;
 close all;
 clc;
 %%
-rootFolder = fullfile('E:/MATLAB/IoC/New folder');
 
-categories = {'mc' , 'dc' , 'vc' , 'jc' , 'sc' , 'nnc'};
-
-imds = imageDatastore(fullfile(rootFolder, categories), 'LabelSource', 'foldernames');
 
 [trainImgs,valImgs,testImgs] = splitEachLabel(imds,0.6,0.1,0.3,'randomized');
 net = alexnet;
